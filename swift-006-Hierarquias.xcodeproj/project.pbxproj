@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		6FBC857F26C5CF3500D36D8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBC857D26C5CF3500D36D8E /* LaunchScreen.storyboard */; };
 		6FBC858A26C5CF3500D36D8E /* swift_006_HierarquiasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBC858926C5CF3500D36D8E /* swift_006_HierarquiasTests.swift */; };
 		6FBC859426C5CF3500D36D8E /* swift_006_HierarquiasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBC859326C5CF3500D36D8E /* swift_006_HierarquiasUITests.swift */; };
+		6FEDBF7226C6D2AC005CA8F2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6FEDBF7126C6D2AC005CA8F2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6FBC858926C5CF3500D36D8E /* swift_006_HierarquiasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_006_HierarquiasTests.swift; sourceTree = "<group>"; };
 		6FBC858F26C5CF3500D36D8E /* swift-006-HierarquiasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-006-HierarquiasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBC859326C5CF3500D36D8E /* swift_006_HierarquiasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_006_HierarquiasUITests.swift; sourceTree = "<group>"; };
+		6FEDBF7126C6D2AC005CA8F2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +81,14 @@
 		6FBC856326C5CF3200D36D8E = {
 			isa = PBXGroup;
 			children = (
+				6FEDBF7126C6D2AC005CA8F2 /* README.md */,
 				6FBC856E26C5CF3200D36D8E /* swift-006-Hierarquias */,
 				6FBC858826C5CF3500D36D8E /* swift-006-HierarquiasTests */,
 				6FBC859226C5CF3500D36D8E /* swift-006-HierarquiasUITests */,
 				6FBC856D26C5CF3200D36D8E /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		6FBC856D26C5CF3200D36D8E /* Products */ = {
 			isa = PBXGroup;
@@ -207,7 +211,7 @@
 				};
 			};
 			buildConfigurationList = 6FBC856726C5CF3200D36D8E /* Build configuration list for PBXProject "swift-006-Hierarquias" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,6 +237,7 @@
 			files = (
 				6FBC857F26C5CF3500D36D8E /* LaunchScreen.storyboard in Resources */,
 				6FBC857C26C5CF3500D36D8E /* Assets.xcassets in Resources */,
+				6FEDBF7226C6D2AC005CA8F2 /* README.md in Resources */,
 				6FBC857726C5CF3200D36D8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -442,11 +447,16 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swift-006-Hierarquias/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hierarquias;
+				INFOPLIST_KEY_CFBundleExecutable = "swift-006-Hierarquias";
+				INFOPLIST_KEY_CFBundleName = "swift-006-Hierarquias";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +466,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,11 +480,16 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swift-006-Hierarquias/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hierarquias;
+				INFOPLIST_KEY_CFBundleExecutable = "swift-006-Hierarquias";
+				INFOPLIST_KEY_CFBundleName = "swift-006-Hierarquias";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +499,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -8,11 +8,27 @@
 import UIKit
 
 class ViewController: UIViewController {
+  
+  let frame = CGRect(x: 50, y: 150, width: 300, height: 300)
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    
+    print("ViewController acabou de carregar!")
+    
+    let anotherView = UIView()
+    anotherView.frame = frame
+    anotherView.backgroundColor = .red
+    self.view.addSubview(anotherView)
+    
+    
+    
+    
+    
+    
   }
+  
+  
 
 
 }
